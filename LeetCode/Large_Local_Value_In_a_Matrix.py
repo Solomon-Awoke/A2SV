@@ -1,5 +1,6 @@
 class Solution:
     def largestLocal(self, grid: List[List[int]]) -> List[List[int]]:
+        
         n=len(grid)
         out=[[0] * (n-2) for k in range(n-2)]
         for i in range(n-2):
