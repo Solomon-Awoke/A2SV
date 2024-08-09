@@ -1,5 +1,6 @@
 class Solution:
     def minDeletionSize(self, strs: List[str]) -> int:
+        
         count=0
         out=[]
         for i in range(len(strs[0])):
