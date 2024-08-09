@@ -1,5 +1,5 @@
 
-class Solution:
+class Solution: 
     def longestCommonPrefix(self, strs: List[str]) -> str:
         size = len(strs)
         if size == 0:
