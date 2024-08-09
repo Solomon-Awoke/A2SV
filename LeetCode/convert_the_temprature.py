@@ -1,4 +1,4 @@
-class Solution:
+class Solution: 
     def convertTemperature(self, celsius: float) -> List[float]:
         out=[]
         out.append(celsius+273.15)
